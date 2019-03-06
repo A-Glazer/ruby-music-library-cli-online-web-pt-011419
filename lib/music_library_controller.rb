@@ -17,6 +17,7 @@ attr_accessor :path, :MusicImporter
     puts "To quit, type 'exit'."
     puts "What would you like to do?"
 
+<<<<<<< HEAD
     i = 0
     loop do
        input = gets.chomp
@@ -37,6 +38,23 @@ attr_accessor :path, :MusicImporter
         play_song
 
       end
+=======
+    # i = 0
+    # loop do
+    #   input = gets.chomp
+    #   i += 1
+    #   if i == 4 || input == "exit"
+    #     break
+    #   # elsif input == 'list_songs'
+    #   #   list_songs
+    #   end
+    # end
+
+    if input == "exit"
+      break
+    elsif input == "list songs"
+      list_songs 
+>>>>>>> dbea18c4a776ab9c0e3ecbbd949710026fb4331d
     end
 
   end
